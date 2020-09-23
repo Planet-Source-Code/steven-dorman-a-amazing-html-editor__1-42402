@@ -1,0 +1,19 @@
+
+<html>
+<head>
+<title>Your SIte Has moved</title>
+
+<meta http-equiv="refresh" content="5;URL=http://YOUR_NEW_SITE_ADDRESS">
+
+</head>
+<body>
+
+Your Old Site address has moved toYour New Site address
+<br>
+
+If your browser does not automatically redirect you in 5 seconds,
+click <a href="http://YOUR_NEW_SITE_ADDRESS">here</a> to go to the new site.
+
+</body>
+</html>
+

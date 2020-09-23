@@ -1,0 +1,173 @@
+This document is for HgP's ZZ-Soft's Easy Html Editor---
+
+
+Help:
+
+contents:
+
+Easy Html
+ Visual Webpage Studio (VWS)
+   Known Bugs
+     Other STuff
+
+
+
+1. Easy Html
+
+Easy Html ( everything BUT VWS ) is a been made for easy access, 
+simple creation of webpages , and has a friendly enviorment.
+----------
+
+Easy Html should already be easy to use and understand.but for
+those completely lost , or just plain stupid people , they can
+resport to this help file.
+
+[Help With saving....]
+
+To save you file , click menu at the top and goto save as...it should 
+be normal from their.
+
+or you can use the toolbar  click on the picture of the foppy!
+
+[help with opening....]
+
+there are many diffrent types of file you can edit with easy html.
+go to the file menu , and select open.
+
+there is a dropdown menu located near the bottom of the open dialog , 
+click the dropdown arrow , and you may select the type of file
+you are looking for. from .html or .htm pages ( default ) to 
+ any file you wish! ( by sellecting all files )
+
+[snippets section help....]
+
+the snippets section provides you witha few example of things you can do
+in html other than plain ordinary webpages. it also has a big list of
+diffrent tags. to use the tags....
+
+1.tags
+click " Html tags--------> "
+and a list of tags shgould appear in the list box to the right
+double click the wanted tag , and it will be inserted to you last cursor
+position in your document.
+
+2.views examples
+just click the examples name you want , and the built in webbrowser will 
+naviigate to it.
+
+3.seeing how the examples are done...
+click the "8" beside the wanted example
+
+[quick tags help]
+ this is just for easy access to some commonly used tags!
+
+[tool bar help]
+the tool bar is for easy access to a few diffrent parts of easy html
+this is NOT avalible in VWS.
+
+[the web browser]
+You can use this to sur the net or to preview your work!
+when you are done previewing click the X , the one below the top one.
+or click the button beside the webbrowser buttons.
+
+[script editor]
+you can use this to make scripts for your sites , like visual
+basic scripts  , perl scripts , or java scripts. there
+are some neat features included in this.
+
+[quick google search]
+Usaly when you need hemp with html , you go to a search engine and
+search for what you need right? well we all know google is the
+fastest and best search engine so we made this. bring this up
+and type what you wanna search for.then it will simply
+open the built in webbrowser and search for what you want!
+
+[source retriever]
+using this you can goto a website using source retriver and 
+even before the sites loaded , it will get the source code
+( the html  , javascript or vbscript ).you can use this to
+learn how to many things.
+
+
+
+-------------------
+
+
+visual webpage studio ( VWS )
+
+youre thinking " why is this even here , its useless!  "
+but in fact its not.
+visual webpage studio or VWS  has some advantages over easy html and
+some disadvantages.
+---------
+Advantages:
+
+it has a built in split view and auto refresh so you always previewing
+you page.
+
+you can edit it while previewing it
+
+
+------------
+disadvantages :
+
+
+MDI form not avalible ( cant have more than more file opne at a time)
+
+snippets section is left out
+------------
+so its you choice ....but if you like them both you can transfer 
+between both at anytime keeping the same info and lot loosing
+one bit of it!
+
+
+-------------
+Known Bugs:
+
+We are not aware of any bugs yet!
+
+other stuff:
+[The Sentence Maker]
+This is a easy - to - use html sentence maker , just try it!
+
+[the section maker]
+use this to make neat little sections in your site. try it!
+
+[html tags in snippets section]
+displays over 15 diffrent tags instaltly , double click the one
+you want to instantly add it to you page!
+
+Thats it for the help..but hey..why would this program need help any
+way huh!
+
+HomeGrown Productions
+creators of zz-soft 
+
+CREDITS::::::::::::::::::::
+
+Steven Dorman -- the CEO or President of HomeGrown Productions
+Nathan Henderson -- the co-CEO or co-President of HomeGrown Production
+Garret Ritchie -- the editor of HomeGrown Productions
+Dustin Catt -- the co-editor of homegrown productions
+
+REACHING US:::::::::::::::::
+
+the companys email address :
+h_g_p@hotmail.com
+
+the ceos address :
+seven__dust@hotmail.com
+
+the co-ceos address :
+disaster_peice_00@hotmail.com
+
+the editors address :
+rerat88@hotmail.com
+
+the co-editors address :
+greenscrunchers@hotmail.com
+
+our web site :
+http://www.h-g-p.tk
+
+THANX FOR DOWNLOADING THIS PROGRAM FROM THE HGP STAFF!

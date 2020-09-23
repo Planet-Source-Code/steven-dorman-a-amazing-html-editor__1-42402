@@ -1,0 +1,19 @@
+<form name="form1" method="post">
+
+Select a page to visit: 
+
+<select name="dd1" size="1">
+<option value="http://address_for_page_1">Page 1</option>
+<option value="http://address_for_page_2">Page 2</option>
+<option value="http://address_for_page_3">Page 3</option>
+</select>
+
+<input type="button" 
+ onclick=
+  "location = 
+   document.form1.dd1.options
+   [document.form1.dd1.selectedIndex].value;" 
+ value="Go There!">
+
+</form>
+

@@ -1,0 +1,158 @@
+<%@LANGUAGE="JAVASCRIPT" CODEPAGE="1252"%>
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body>
+
+
+<p align="center">
+  <marquee>
+  <font color="#0000FF" size="+2"><strong>Cool Tips and Tricks with HTML</strong></font> 
+  </marquee>
+  &nbsp;</p>
+<p align="center">Below are some HTML tips and tricks that can make any old boring 
+  site look cool again. These directions have been created so even the worst of 
+  HTML programmers can most likely accomplish these tips and tricks. There are 
+  only 12 tips currently more will be added in soon at the<a href="http://www.h-g-p.tk"> 
+  Home Grown Productions website</a>. </p>
+<table width="96%" border="0" bordercolor="#000000">
+  <tr> 
+    <td width="34%" height="36" bordercolor="#000000"><div align="center"><strong>TRICKS</strong></div></td>
+    <td width="37%"><div align="center"><strong>SOURCE CODE</strong></div></td>
+    <td width="29%"><div align="center"><strong>EXAMPLE</strong></div></td>
+  </tr>
+  <tr> 
+    <td bordercolor="#000000"><div align="center">Have your words scroll horizontally 
+        along the page.</div></td>
+    <td><div align="left">&lt;Marquee&gt; WORDS YOU WANT TO SCROLL&lt;/Marquee&gt;</div></td>
+    <td><marquee>
+      WORDS YOU WANT TO SCROLL </marquee> &nbsp;</td>
+  </tr>
+  <tr> 
+    <td bordercolor="#000000"><div align="center">Have an audio file play while 
+        users visit the page. In the source code you change bgsound.mid to the 
+        sound file you would like it to play.</div></td>
+    <td><div align="left">&lt;embed src=&quot;bgsound.mid&quot; hidden=&quot;true&quot; 
+        autostart=&quot;true&quot; loop=&quot;1&quot;&gt;<br>
+        &lt;noembed&gt;Your browser doesn't support EMBED, but you can still listen 
+        to the background sound of this page by&lt;a href=&quot;bgsound.mid&quot;&gt; 
+        clicking here.&lt;/a&gt;&lt;/noembed&gt;<br>
+      </div></td>
+    <td><div align="center">No Example</div></td>
+  </tr>
+  <tr> 
+    <td bordercolor="#000000"><div align="center">How to increase the traffic 
+        to your website with META tags.The tag in the source code should be put 
+        in &lt;HEAD&gt; &lt;/HEAD&gt;. In the source code for description put 
+        a short description of your webpage. In keywords type in some keywords 
+        that relate to your site that the person might type in too see your site 
+        on the search engine. You can seperate Each Keyword by using a comma in 
+        between words.</div></td>
+    <td>&lt;meta name=&quot;description&quot; content=&quot;How to promote your 
+      web site.&quot;&gt;<br> &lt;meta name=&quot;keywords&quot; content=&quot;announcing 
+      web site, web submission, web promote, internet promotions, submit&quot;&gt;<br></td>
+    <td><div align="center">No Example<br>
+      </div></td>
+  </tr>
+  <tr> 
+    <td bordercolor="#000000"><div align="center">Have a image and then words 
+        next to the picture. Replace yourname.jpg with the image name you would 
+        like to use. Your Image will be displayed on the left hand of the screen 
+        and the text on the right. If you would like the text to be on the left 
+        hand side and the image on the right please change the word left in the 
+        source code to right.</div></td>
+    <td>&lt;IMG BORDER=&quot;0&quot; ALIGN=&quot;Left&quot; SRC=&quot;yourimage.jpg&quot;&gt; 
+      Your Text</td>
+    <td><div align="center">No Example</div></td>
+  </tr>
+  <tr> 
+    <td bordercolor="#000000"><div align="center">Removing the underlines on links. 
+        Replace the http://www.yourdomain.com with your webpage you wish to link 
+        too and then replace your link with what you wish the link to display.</div></td>
+    <td>&lt;A HREF=&quot;http://www.yourdomain.com&quot; STYLE=&quot;TEXT-DECORATION: 
+      NONE&quot;&gt;Your Link&lt;/A&gt;</td>
+    <td><div align="center">No Example</div></td>
+  </tr>
+  <tr> 
+    <td height="58" bordercolor="#000000"><div align="center">Changing the color 
+        of a link. First, change http://www.yourdomain.com to where you would 
+        like the link to go. Then change #FF0000 to the color you would like in 
+        hexa-decimals.</div></td>
+    <td>&lt;A HREF=&quot;http://www.yourdomain.com&quot;&gt;&lt;FONT COLOR=&quot;#FF0000&quot;&gt;Your 
+      Link&lt;/FONT&gt;&lt;/A&gt;</td>
+    <td><div align="center"><A HREF="http://www.h-g-p.tk"><FONT COLOR="#00FFFF">Home 
+        Grown Productions</FONT></A><font color="#FFFF66">&nbsp;</font></div></td>
+  </tr>
+  <tr> 
+    <td bordercolor="#000000"><div align="center">You can display a description 
+        of your link in the status bar of Internet Explorer when your mouse is 
+        placed over the link. </div></td>
+    <td>&lt;A HREF=&quot;http://www.yourdomain.com&quot; onMouseOver=&quot;window.status='Your 
+      text description'; return true&quot; onMouseOut=&quot;window.status='';return 
+      true&quot;&gt;Your linked text&lt;/a&gt;</td>
+    <td><div align="center"><A HREF="http://www.yourdomain.com" onMouseOver="window.status='www.h-g-p.tk is a place where you can download new software, music, and more'; return true" onMouseOut="window.status='';return true">Home 
+        Grown Productions</a>&nbsp;</div></td>
+  </tr>
+  <tr> 
+    <td height="155" bordercolor="#000000"><div align="center">Add transitions 
+        to your website just like in the movies. Just add the single line code 
+        between the &lt;head&gt; &lt;/head&gt; tags of a page. To change the length 
+        of the transition change the number after Duration= and then to change 
+        weather u want a fade or mix or whatever change the number after Transition=. 
+        There are 23 diffrent transitions so choose a number from 0 to 22 and 
+        if you hit 23 that is a random transition.</div></td>
+    <td>&lt;META http-equiv=&quot;Page-Enter&quot; CONTENT=&quot;RevealTrans(Duration=4,Transition=0)&quot;&gt;</td>
+    <td><div align="center">No Example</div></td>
+  </tr>
+  <tr> 
+    <td bordercolor="#000000"><div align="center">To open a link in a new window. 
+        Change http://www.yourdomain.com/ to your web page you would like to go 
+        to and then change Your Link to what you would like the link to be displayed 
+        as</div></td>
+    <td>&lt;A HREF=&quot;http://www.yourdomain.com/&quot; TARGET=&quot;_blank&quot;&gt;Your 
+      Link&lt;/a&gt; </td>
+    <td><div align="center"><A HREF="http://www.h-g-p.tk" TARGET="_blank">Home 
+        Grown Productions</a> &nbsp;</div></td>
+  </tr>
+  <tr> 
+    <td bordercolor="#000000"><div align="center">If you have an old web address 
+        and would automatically like your browser to forward anyone who goes to 
+        an old web address to a new web address place. Change http://www.newlocation.com/page.html 
+        to your new webaddress. You will place this source code on your old website. 
+      </div></td>
+    <td>&lt;META HTTP-EQUIV=&quot;Refresh&quot; CONTENT=&quot;0; URL=http://www.newlocation.com/page.html&quot;&gt; 
+    </td>
+    <td><div align="center">No Example</div></td>
+  </tr>
+  <tr> 
+    <td bordercolor="#000000"><div align="center">Offering downloads without FTP 
+        servers. Change http://www.h-g-p.tk/easyhtmleditor3.zip to the file you 
+        wish to allow people to download and then change Download the new version 
+        of Easy HTML editor to what you wish to have the link say that you click 
+        on. You will also have to notify the people that you must right-click 
+        or shift-click on the link and then press save to download.</div></td>
+    <td bordercolor="#000000" bgcolor="#FFFFFF">Please rightclick and then Save to<br> &lt;A HREF=&quot;http://www.h-g-p.tk/easyhtmleditor3.zip&quot;&gt;<br>
+      Download the new version of Easy HTML editor&lt;/A&gt; <br></td>
+    <td><div align="center">
+        <p>Please either press right-click or shit-click and then press save to 
+          download.</p>
+        <p><A HREF="http://www.geocities.com/homegrown129/pythononline.zip">Download 
+          Python Online</A>&nbsp;</p>
+      </div></td>
+  </tr>
+</table>
+If You Wish To Learn How TO Use Java , Download Python ONline And Edit Its Contents!
+</body>
+</html>
+
+
+
+
+
+
+
+
+
