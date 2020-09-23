@@ -1,0 +1,11 @@
+
+<form method="post">
+
+<input type="button" value="Click me!"   onclick = "hint_wnd = window.open('', 'hint_wnd', 'width=50, height=60, resizable=no, scrollbars=no' ); hint_wnd.document.write( 'Hello, world!' );
+
+return true;">
+
+</form>
+
+<pre> When You Click The Button It Will Write Hello World Into A New 
+               Pop-Up Window </pre>

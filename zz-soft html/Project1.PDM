@@ -1,0 +1,438 @@
+[Root]
+Most Recent Package=zsoftsetup
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\WINDOWS\Profiles\jessica\Desktop\zz-soft html\Package
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\WININET.DLL=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=
+C:\WINDOWS\SYSTEM\MSINET.OCX=
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\WINDOWS\Profiles\jessica\Desktop\zz-soft html\New Folder\zz-soft easy html editor 1.0.exe=Yes
+C:\WINDOWS\SYSTEM\msvbvm60.dll=Yes
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=Yes
+C:\WINDOWS\SYSTEM\olepro32.dll=Yes
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=Yes
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\WININET.DLL=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSINET.OCX=Yes
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=Yes
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\WINDOWS\Profiles\jessica\Desktop\zz-soft html\New Folder\zz-soft easy html editor 1.0.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\msvbvm60.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\olepro32.dll=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\WININET.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSINET.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSCOMCTL.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\WINDOWS\Profiles\jessica\Desktop\zz-soft html\New Folder\zz-soft easy html editor 1.0.exe=Yes
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=zz-softs easy html editor
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=zz-softs easy html editor
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|zz-softs easy html editor]
+Icon1="zz-soft easy html editor 1.0.exe"
+Title1=zz-softs easy html editor
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=C:\WINDOWS\Profiles\jessica\Desktop\zz-soft html\Package
+ProjectFolder=C:\WINDOWS\Profiles\jessica\Desktop\zz-soft html
+ServerSideCab=
+File1=C:\WINDOWS\Profiles\jessica\Desktop\zz-soft html\Package\setup.exe
+File2=C:\WINDOWS\Profiles\jessica\Desktop\zz-soft html\Package\Setup.Lst
+File3=C:\WINDOWS\Profiles\jessica\Desktop\zz-soft html\Package\zz-soft easy html editor 1.0.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|zz-sopf|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\WINDOWS\Desktop\Package
+
+[Package|zz-sopf|Configure DAO ISAMs]
+Applicable=No
+
+[Package|zz-sopf|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|zz-sopf|Files Found]
+
+[Package|zz-sopf|Files Released]
+
+[Package|zz-sopf|Missing Dependency Information]
+C:\Program Files\Common Files\SYSTEM\ADO\MSADO10.DLL=
+
+[Package|zz-sopf|Out-of-Date Dependency Information]
+
+[Package|zz-sopf|Files Added]
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\887gh7880.zdll=
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\dedicationsetc.txt=
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\dropdown source.txt=
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\dropdown.htm=
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\Help.txt=
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\hover_a source.txt=
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\hover_a.htm=
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\in next version.txt=
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\popupwin source.txt=
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\popupwin.htm=
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\READ FIRST.txt=
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\redirect source.txt=
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\redirect.htm=
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\settings.zdll=
+
+[Package|zz-sopf|Files Removed]
+
+[Package|zz-sopf|Files In Project]
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\zz-soft easy html editor 3.0.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\MSINET.OCX=Yes
+C:\WINDOWS\SYSTEM\mscomctl.ocx=Yes
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\Program Files\Common Files\SYSTEM\ADO\MSADO10.DLL=Yes
+C:\WINDOWS\SYSTEM\MSBIND.DLL=Yes
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=Yes
+C:\WINDOWS\SYSTEM\TabCtl32.ocx=Yes
+C:\Program Files\Common Files\designer\MSDERUN.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\887gh7880.zdll=Yes
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\dedicationsetc.txt=Yes
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\dropdown source.txt=Yes
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\dropdown.htm=Yes
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\Help.txt=Yes
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\hover_a source.txt=Yes
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\hover_a.htm=Yes
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\in next version.txt=Yes
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\popupwin source.txt=Yes
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\popupwin.htm=Yes
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\READ FIRST.txt=Yes
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\redirect source.txt=Yes
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\redirect.htm=Yes
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\settings.zdll=Yes
+
+[Package|zz-sopf|Configure Registry Files]
+Applicable=No
+
+[Package|zz-sopf|Configure Remote Servers]
+Applicable=No
+
+[Package|zz-sopf|Install Locations]
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\zz-soft easy html editor 3.0.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSINET.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Common Files\SYSTEM\ADO\MSADO10.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TabCtl32.ocx=$(WinSysPath)
+C:\Program Files\Common Files\designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\887gh7880.zdll=$(AppPath)
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\dedicationsetc.txt=$(AppPath)
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\dropdown source.txt=$(AppPath)
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\dropdown.htm=$(AppPath)
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\Help.txt=$(AppPath)
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\hover_a source.txt=$(AppPath)
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\hover_a.htm=$(AppPath)
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\in next version.txt=$(AppPath)
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\popupwin source.txt=$(AppPath)
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\popupwin.htm=$(AppPath)
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\READ FIRST.txt=$(AppPath)
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\redirect source.txt=$(AppPath)
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\redirect.htm=$(AppPath)
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\settings.zdll=$(AppPath)
+
+[Package|zz-sopf|Configure Shared Files]
+Applicable=Yes
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\zz-soft easy html editor 3.0.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\887gh7880.zdll=No
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\dedicationsetc.txt=No
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\dropdown source.txt=No
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\dropdown.htm=No
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\Help.txt=No
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\hover_a source.txt=No
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\hover_a.htm=No
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\in next version.txt=No
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\popupwin source.txt=No
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\popupwin.htm=No
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\READ FIRST.txt=No
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\redirect source.txt=No
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\redirect.htm=No
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\settings.zdll=No
+
+[Package|zz-sopf|Distribution]
+Type=single
+Size=
+Title=zz-softs easy html editor
+
+[Package|zz-sopf|IconGroups]
+Group0=zz-softs easy html editor
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|zz-sopf|zz-softs easy html editor]
+Icon1="zz-soft easy html editor 3.0.exe"
+Title1=zz-softs easy html editor
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|zz-sopf|Package]
+PackageFolder=C:\WINDOWS\Desktop\Package
+ProjectFolder=C:\WINDOWS\Desktop\myhtmleditor\zz-soft html
+ServerSideCab=
+File1=C:\WINDOWS\Desktop\Package\setup.exe
+File2=C:\WINDOWS\Desktop\Package\Setup.Lst
+File3=C:\WINDOWS\Desktop\Package\zz-soft easy html editor 3.0.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+
+[Package|zsoftsetup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\Package(2)
+
+[Package|zsoftsetup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|zsoftsetup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|zsoftsetup|Files Found]
+
+[Package|zsoftsetup|Files Released]
+
+[Package|zsoftsetup|Missing Dependency Information]
+C:\WINDOWS\SYSTEM\MSADO10.DLL=
+C:\WINDOWS\SYSTEM\WININET.DLL=
+
+[Package|zsoftsetup|Out-of-Date Dependency Information]
+
+[Package|zsoftsetup|Files Added]
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\887gh7880.zdll=
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\dedicationsetc.txt=
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\dropdown source.txt=
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\dropdown.htm=
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\Help.txt=
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\hover_a source.txt=
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\hover_a.htm=
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\in next version.txt=
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\popupwin source.txt=
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\popupwin.htm=
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\redirect source.txt=
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\redirect.htm=
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\tipsandtricks.html=
+
+[Package|zsoftsetup|Files Removed]
+
+[Package|zsoftsetup|Files In Project]
+C:\WINDOWS\Desktop\test\zz-soft easy html editor 3.0.exe=Yes
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINDOWS\SYSTEM\WININET.DLL=Yes
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=Yes
+C:\WINDOWS\SYSTEM\mscomctl.ocx=Yes
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=Yes
+C:\WINDOWS\SYSTEM\MSADO10.DLL=Yes
+C:\WINDOWS\SYSTEM\MSBIND.DLL=Yes
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=Yes
+C:\WINDOWS\SYSTEM\TabCtl32.ocx=Yes
+C:\Program Files\Common Files\designer\MSDERUN.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\887gh7880.zdll=Yes
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\dedicationsetc.txt=Yes
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\dropdown source.txt=Yes
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\dropdown.htm=Yes
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\Help.txt=Yes
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\hover_a source.txt=Yes
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\hover_a.htm=Yes
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\in next version.txt=Yes
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\popupwin source.txt=Yes
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\popupwin.htm=Yes
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\redirect source.txt=Yes
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\redirect.htm=Yes
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\tipsandtricks.html=Yes
+
+[Package|zsoftsetup|Configure Registry Files]
+Applicable=No
+
+[Package|zsoftsetup|Configure Remote Servers]
+Applicable=No
+
+[Package|zsoftsetup|Install Locations]
+C:\WINDOWS\Desktop\test\zz-soft easy html editor 3.0.exe=$(AppPath)
+C:\WINDOWS\SYSTEM\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\WININET.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\COMDLG32.OCX=$(WinSysPath)
+C:\WINDOWS\SYSTEM\mscomctl.ocx=$(WinSysPath)
+C:\WINDOWS\SYSTEM\RICHTX32.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\RICHED32.DLL=$(WinSysPathSysFile)
+C:\WINDOWS\SYSTEM\MSADO10.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSBIND.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINDOWS\SYSTEM\TabCtl32.ocx=$(WinSysPath)
+C:\Program Files\Common Files\designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINDOWS\SYSTEM\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\887gh7880.zdll=$(AppPath)
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\dedicationsetc.txt=$(AppPath)
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\dropdown source.txt=$(AppPath)
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\dropdown.htm=$(AppPath)
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\Help.txt=$(AppPath)
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\hover_a source.txt=$(AppPath)
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\hover_a.htm=$(AppPath)
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\in next version.txt=$(AppPath)
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\popupwin source.txt=$(AppPath)
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\popupwin.htm=$(AppPath)
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\redirect source.txt=$(AppPath)
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\redirect.htm=$(AppPath)
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\tipsandtricks.html=$(AppPath)
+
+[Package|zsoftsetup|Configure Shared Files]
+Applicable=Yes
+C:\WINDOWS\Desktop\test\zz-soft easy html editor 3.0.exe=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MDAC_TYP.EXE=No
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\887gh7880.zdll=No
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\dedicationsetc.txt=No
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\dropdown source.txt=No
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\dropdown.htm=No
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\Help.txt=No
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\hover_a source.txt=No
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\hover_a.htm=No
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\in next version.txt=No
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\popupwin source.txt=No
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\popupwin.htm=No
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\redirect source.txt=No
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\redirect.htm=No
+C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\tipsandtricks.html=No
+
+[Package|zsoftsetup|Distribution]
+Type=single
+Size=
+Title=zz-softs easy html editor
+
+[Package|zsoftsetup|IconGroups]
+Group0=zz-softs easy html editor
+PrivateGroup0=-1
+Parent0=$(Programs)
+
+[Package|zsoftsetup|zz-softs easy html editor]
+Icon1="zz-soft easy html editor 3.0.exe"
+Title1=zz-softs easy html editor
+StartIn1=$(AppPath)
+Key1=Icon1
+Icon2=tipsandtricks.html
+Title2=Tips & Tricks
+StartIn2=$(AppPath)
+Key2=Icon3
+
+[Package|zsoftsetup|Package]
+PackageFolder=C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\Package(2)
+ProjectFolder=C:\WINDOWS\Desktop\myhtmleditor\zz-soft html
+ServerSideCab=
+File1=C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\Package(2)\setup.exe
+File2=C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\Package(2)\Setup.Lst
+File3=C:\WINDOWS\Desktop\myhtmleditor\zz-soft html\Package(2)\zz-soft easy html editor 3.0.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
